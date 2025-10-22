@@ -94,10 +94,7 @@
                                 <li class="nav-item"><a href="lab-crece-blog.html" class="nav-link">Blog</a></li>
                                 -->
                                 <li class="nav-item"><a href="lab-crece-contact.html" class="nav-link">Contáctanos</a></li>
-
-                                <li class="nav-item"><a href="https://wa.link/9aouhg" target="_blank" rel="noopener noreferrer" class="nav-link">
-                                        <i class="fa-brands fa-whatsapp"></i> Te asesoramos
-                                    </a></li>
+                                <!-- Botón de WhatsApp (prueba) -->
                             </ul>
                         </div>
                     </div>
@@ -118,6 +115,85 @@
             <!-- end navigation -->
         </header>
         <!-- end header --> 
+        <!-- Botón flotante de WhatsApp con rebote -->
+        <a href="https://wa.link/9aouhg" target="_blank" 
+        class="whatsapp-float d-flex justify-content-center align-items-center"
+        style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; 
+                background-color: #25D366; color: #fff; border-radius: 50%; 
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999; display: none;
+                animation: bounce 2s infinite;">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+
+        <style>
+        /* Mostrar solo en móviles (<992px) */
+        @media (max-width: 991.98px) {
+            .whatsapp-float {
+                display: flex !important;
+            }
+        }
+
+        /* Animación de rebote */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+            25% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+            50% {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            }
+            75% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+        }
+        </style>
+        <!-- end Botón flotante de WhatsApp con rebote --> 
+        <!-- Botón flotante de WhatsApp con rebote -->
+        <a href="https://wa.link/9aouhg" target="_blank" 
+        class="whatsapp-float d-flex justify-content-center align-items-center"
+        style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; 
+                background-color: #25D366; color: #fff; border-radius: 50%; 
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999; display: none;
+                animation: bounce 2s infinite;">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+
+        <style>
+        /* Mostrar solo en móviles (<992px) */
+        @media (max-width: 991.98px) {
+            .whatsapp-float {
+                display: flex !important;
+            }
+        }
+
+        /* Animación de rebote */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+            25% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+            50% {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            }
+            75% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+        }
+        </style>
+        <!-- end Botón flotante de WhatsApp con rebote --> 
+
         <!-- start section -->
         <section class="p-0 overflow-hidden bg-dark-gray full-screen ipad-top-space-margin md-h-auto position-relative md-pb-70px sm-pb-40px cover-background" style="background-image: url('images/lab-crece-hero-bg.jpg')">
             <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('images/vertical-line-bg-small.svg')"></div>
@@ -140,6 +216,7 @@
                                     <span class="btn-double-text ls-minus-05px" data-text="Comienza Ahora">Comienza Ahora</span>
                                 </span>
                             </a>
+                            <!-- Preguntar si se va usar el link para YT -->
                             <a href="https://www.youtube.com/watch?v=cfXHhfNy7tU" class="btn btn-link btn-hover-animation-switch btn-extra-large text-white popup-youtube btn-icon-left">
                                 <span>
                                     <span class="btn-text">¿Cómo funciona?</span>
@@ -213,7 +290,7 @@
                                     <i class="bi bi-award d-inline-block icon-extra-medium text-dark-gray"></i> 
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
-                                    <span class="d-inline-block alt-font fs-19 fw-500 ls-minus-05px text-dark-gray">Guaranteed and certified</span>
+                                    <span class="d-inline-block alt-font fs-19 fw-500 ls-minus-05px text-dark-gray">Aprende con expertos</span>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +322,8 @@
                                     </div>
                                     <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
                                         <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Título con registro en SUNEDU</span>
-                                        <p>eLearning allows learners to quickly and more easily complete their training.</p>
+                                        <!--Información temporal -->
+                                        <p>Formación oficial reconocida y validada por SUNEDU.</p>
                                         <span class="w-60px h-3px bg-yellow d-inline-block"></span>
                                     </div>
                                 </div>
@@ -260,7 +338,8 @@
                                     </div>
                                     <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
                                         <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Clases en vivo + contenido on-demand</span>
-                                        <p>eLearning allows learners to quickly and more easily complete their training.</p>
+                                        <!--Información temporal -->
+                                        <p>Aprende a tu ritmo con clases en vivo y materiales disponibles 24/7.</p>
                                         <span class="w-60px h-3px bg-yellow d-inline-block"></span>
                                     </div>
                                 </div>
@@ -275,7 +354,8 @@
                                     </div>
                                     <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
                                         <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Certificación digital verificable</span>
-                                        <p>eLearning allows learners to quickly and more easily complete their training.</p>
+                                        <!--Información temporal -->
+                                        <p>Obtén tu certificado online con validación inmediata.</p>
                                         <span class="w-60px h-3px bg-yellow d-inline-block"></span>
                                     </div>
                                 </div>
@@ -542,6 +622,38 @@
         </section>-->
         <!-- end section: Diplomados -->
 
+        <!-- start sección CTA llamativa -->
+        <section class="position-relative overflow-hidden" style="background-size: cover; background-position: center;">
+            <div class="container py-5 text-center position-relative z-index-1">
+                <!-- Icono destacado -->
+                <div class="d-inline-flex justify-content-center align-items-center mb-3">
+                    <div class="bg-yellow rounded-circle w-70px h-70px d-flex justify-content-center align-items-center shadow">
+                        <i class="bi bi-award fs-2 text-dark-gray"></i>
+                    </div>
+                </div>
+
+                <!-- Título -->
+                <h2 class="alt-font text-dark-gray fw-700 mb-3" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800 }'>
+                    Impulsa tu carrera profesional
+                </h2>
+
+                <!-- Descripción -->
+                <p class="fs-18 text-dark-gray mb-4" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800, "delay": 200 }'>
+                    Elige el diplomado que más se adapte a tus metas y comienza a avanzar hoy mismo.
+                </p>
+
+                <!-- Botón CTA -->
+                <a href="lab-crece-courses.html" class="btn btn-large btn-dark-gray btn-box-shadow btn-rounded btn-switch-text" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800, "delay": 400 }'>
+                    <span>
+                        <span class="btn-double-text" data-text="Ver diplomados">Ver diplomados</span>
+                        <span><i class="fa-solid fa-arrow-right"></i></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+        <!-- end sección CTA llamativa -->
+
+
         <!-- start section -->
         <section class="overflow-hidden">
             <div class="container">
@@ -568,7 +680,7 @@
                                     <i class="bi bi-briefcase d-inline-block icon-extra-medium text-dark-gray"></i> 
                                 </div>
                                 <div class="feature-box-content last-paragraph-no-margin">
-                                    <span class="d-inline-block alt-font fs-19 fw-500 ls-minus-05px text-dark-gray">Premium learning experience</span>
+                                    <span class="d-inline-block alt-font fs-19 fw-500 ls-minus-05px text-dark-gray">Una Experiencia Premiun</span>
                                 </div>
                             </div>
                         </div>
@@ -631,7 +743,7 @@
                                 <div id="accordion-style-07-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-07">
                                     <div class="accordion-body last-paragraph-no-margin">
                                         <p>Tutor académico y asesoría de carrera.</p>
-                                        <i class="line-icon-Gear-2 icon-extra-double-large opacity-2"></i>
+                                        <i class="line-icon-Idea-3 icon-extra-double-large opacity-2" style ="font-size: 6rem"></i>
                                     </div>
                                 </div>
                             </div>
@@ -652,296 +764,29 @@
                         <div class="swiper-wrapper marquee-slide">
                             <!-- start slider item -->
                             <div class="swiper-slide">
-                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">providing amazing online</div>
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">Liderar hoy </div>
                             </div>
                             <!-- end slider item -->
                             <!-- start slider item -->
                             <div class="swiper-slide">
-                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">courses bringing you</div>
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">exige aprender </div>
                             </div>
                             <!-- end slider item -->
                             <!-- start slider item -->
                             <div class="swiper-slide">
-                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">outstanding online learning</div>
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">más que ayer</div>
                             </div>
                             <!-- end slider item -->
                         </div> 
                     </div>  
                     <div class="col-12 position-absolute top-0 h-100 d-flex justify-content-center align-items-center left-0px z-index-1 text-center">
-                        <h4 class="alt-font text-dark-gray fs-45 fw-600 ls-minus-2px xs-ls-minus-1px mb-0 mt-40px xs-mt-15px">Online learning wherever and whenever.</h4>
+                        <h4 class="alt-font text-dark-gray fs-45 fw-600 ls-minus-2px xs-ls-minus-1px mb-0 mt-40px xs-mt-15px">Liderar hoy exige aprender más que ayer</h4>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end section -->
-        <!-- start section -->
-        <section class="position-relative bg-gradient-aztec-green overflow-hidden">
-            <div class="position-absolute left-minus-100px top-40px" data-bottom-top="transform: translateY(-80px)" data-top-bottom="transform: translateY(80px)">
-                <img src="images/lab-crece-bg-05.png" alt="">
-            </div>
-            <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('images/vertical-line-bg-small.svg')"></div>
-            <div class="background-position-center-top h-8px w-100 position-absolute left-0px bottom-0" style="background-image: url('images/lab-crece-border.jpg')"></div>
-            <div class="container">
-                <div class="row justify-content-center align-items-center" data-anime='{ "el": "childs", "opacity": [0, 1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <div class="col-lg-5 position-relative md-mb-50px sm-mb-25px">
-                        <div class="icon-with-text-style-08 mb-20px">
-                            <div class="feature-box feature-box-left-icon-middle">
-                                <div class="feature-box-icon feature-box-icon-rounded w-55px h-55px rounded-circle bg-yellow me-15px">
-                                    <i class="bi bi-chat-quote d-inline-block icon-extra-medium text-dark-gray"></i>
-                                </div>
-                                <div class="feature-box-content last-paragraph-no-margin">
-                                    <span class="d-inline-block alt-font fs-19 ls-minus-05px text-white">Students feedback</span>
-                                </div>
-                            </div>
-                        </div>
-                        <h2 class="alt-font text-white fw-600 ls-minus-3px w-85 lg-w-100">Trusted by genius people.</h2>
-                        <p class="w-80 lg-w-100 text-white opacity-4">Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis dictum nec.</p>
-                        <div class="d-flex align-items-center">
-                            <div class="col-auto text-center border-end border-color-transparent-white-very-light border-1 me-25px pe-25px"><h2 class="alt-font lh-44 fw-600 text-white mb-0">99%</h2></div>
-                            <div class="col">
-                                <span class="d-block w-55 lh-26 text-white xl-w-60 lg-w-100">Student's complete course successfully.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 position-relative testimonials-style-12"> 
-                        <div class="swiper magic-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 50, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 1 },  "768": { "slidesPerView": 1 }, "768": { "slidesPerView": 1 }, "320": { "slidesPerView": 1 }, "effect": "slide" }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav", "effect": "fade" } }'>
-                            <div class="swiper-wrapper pt-20px pb-20px">
-                                <!-- start slider item --> 
-                                <div class="swiper-slide">
-                                    <div class="row g-0 border-radius-6px overflow-hidden"> 
-                                        <div class="col-sm-5 services-box-img xs-h-350px">
-                                            <div class="h-100 cover-background" style="background-image: url(https://placehold.co/305x380)"></div>
-                                        </div>
-                                        <div class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large">
-                                            <div class="d-inline-block bg-orange text-white border-radius-50px ps-20px pe-20px fs-15 lh-34 sm-lh-30 ls-minus-1px mb-25px align-middle">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
-                                            <div class="testimonials-box-content">
-                                                <p class="mb-20px">Course materials were good, the mentoring approach was good and working with other people via the internet was good.</p>
-                                                <div class="fs-18 lh-20 fw-600 text-dark-gray">Charlotte smith</div>
-                                                <span class="fs-16 lh-20">Business owner</span>
-                                            </div> 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- end slider item -->
-                                <!-- start slider item --> 
-                                <div class="swiper-slide">
-                                    <div class="row g-0 border-radius-6px overflow-hidden"> 
-                                        <div class="col-sm-5 services-box-img xs-h-350px">
-                                            <div class="h-100 cover-background" style="background-image: url(https://placehold.co/305x380)"></div>
-                                        </div>
-                                        <div class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large">
-                                            <div class="d-inline-block bg-orange text-white border-radius-50px ps-20px pe-20px fs-15 lh-34 sm-lh-30 ls-minus-1px mb-25px align-middle">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
-                                            <div class="testimonials-box-content">
-                                                <p class="mb-20px">Course materials were good, the mentoring approach was good and working with other people via the internet was good.</p>
-                                                <div class="fs-18 lh-20 fw-600 text-dark-gray">Herman miller</div>
-                                                <span class="fs-16 lh-20">Behavioral science</span>
-                                            </div> 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- end slider item -->
-                                <!-- start slider item --> 
-                                <div class="swiper-slide">
-                                    <div class="row g-0 border-radius-6px overflow-hidden"> 
-                                        <div class="col-sm-5 services-box-img xs-h-350px">
-                                            <div class="h-100 cover-background" style="background-image: url(https://placehold.co/305x380)"></div>
-                                        </div>
-                                        <div class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large">
-                                            <div class="d-inline-block bg-orange text-white border-radius-50px ps-20px pe-20px fs-15 lh-34 sm-lh-30 ls-minus-1px mb-25px align-middle">
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
-                                            <div class="testimonials-box-content">
-                                                <p class="mb-20px">Course materials were good, the mentoring approach was good and working with other people via the internet was good.</p>
-                                                <div class="fs-18 lh-20 fw-600 text-dark-gray">Matthew taylor</div>
-                                                <span class="fs-16 lh-20">Network security</span>
-                                            </div> 
-                                        </div> 
-                                    </div>
-                                </div>
-                                <!-- end slider item -->
-                            </div>
-                        </div>
-                        <!-- start slider navigation -->
-                        <div class="swiper-button-next-nav border-radius-100px swiper-button-next bg-white box-shadow-small"><i class="feather icon-feather-chevron-right icon-extra-medium"></i></div>
-                        <div class="swiper-button-previous-nav border-radius-100px swiper-button-prev bg-white box-shadow-small"><i class="feather icon-feather-chevron-left icon-extra-medium"></i></div>
-                        <!-- end slider pagination -->
-                    </div> 
-                </div>
-                <div class="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-3 text-center justify-content-center clients-style-05 mt-6" data-anime='{ "el": "childs", "opacity": [0, 1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                    <!-- start client item -->
-                    <div class="col md-mb-40px">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-walmart-white.svg" class="h-40px" alt="" /></a> 
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col md-mb-40px">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-logitech-white.svg" class="h-40px" alt="" /></a> 
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col md-mb-40px">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-invision-white.svg" class="h-40px" alt="" /></a> 
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col xs-mb-40px">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-yahoo-white.svg" class="h-40px" alt="" /></a> 
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                    <!-- start client item -->
-                    <div class="col">
-                        <div class="client-box">
-                            <a href="#"><img src="images/logo-monday-white.svg" class="h-40px" alt="" /></a> 
-                        </div>
-                    </div>
-                    <!-- end client item -->
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
-        <!-- start section -->
-        <section class="bg-gradient-tranquil-white overflow-hidden position-relative overlap-height pb-5 md-pb-7 xs-pb-50px">
-            <div class="container overlap-gap-section">
-                <div class="row justify-content-center align-items-center mb-4 text-center text-md-start">
-                    <div class="col-xxl-8 col-md-7 sm-mb-10px">
-                        <h2 class="alt-font text-dark-gray fw-600 ls-minus-3px mb-0">Latest articles</h2>
-                    </div>
-                    <div class="col-xxl-4 col-md-5 text-center text-md-end" data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <a href="lab-crece-blog.html" class="btn btn-link btn-hover-animation-switch btn-extra-large text-dark-gray fw-600">
-                            <span>
-                                <span class="btn-text">Explore all articles</span>
-                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                            </span> 
-                        </a>
-                    </div>
-                </div>
-                <div class="row">  
-                    <div class="col-12">
-                        <ul class="blog-masonry blog-wrapper grid-loading grid grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large" data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                            <li class="grid-sizer"></li>
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover">
-                                    <div class="card-top d-flex align-items-center">
-                                        <a href="lab-crece-blog.html"><img src="https://placehold.co/125x125" class="avtar" alt=""></a>
-                                        <span class="fs-16">By <a href="lab-crece-blog.html" class="text-dark-gray fw-600">Andy glamer</a></span>
-                                        <div class="like-count ms-auto fs-14">
-                                            <a href="#"><i class="fa-regular fa-heart text-red d-inline-block"></i><span class="text-dark-gray fw-600">65</span></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-image position-relative overflow-hidden">
-                                        <a href="lab-crece-blog-single-simple.html"><img src="https://placehold.co/600x425" alt="" /></a>
-                                    </div>
-                                    <div class="card-body p-0">
-                                        <div class="post-content p-11 md-p-9">
-                                            <a href="lab-crece-blog-single-simple.html" class="card-title mb-10px fw-600 fs-19 lh-28 text-dark-gray d-inline-block">How to evaluate the effective of training programs.</a>
-                                            <p class="mb-0">Lorem ipsum has been industry standard dummy text ever...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover">
-                                    <div class="card-top d-flex align-items-center">
-                                        <a href="lab-crece-blog.html"><img src="https://placehold.co/125x125" class="avtar" alt=""></a>
-                                        <span class="fs-16">By <a href="lab-crece-blog.html" class="text-dark-gray fw-600">Den viliamson</a></span>
-                                        <div class="like-count ms-auto fs-14">
-                                            <a href="#"><i class="fa-regular fa-heart text-red d-inline-block"></i><span class="text-dark-gray fw-600">35</span></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-image position-relative overflow-hidden">
-                                        <a href="lab-crece-blog-single-simple.html"><img src="https://placehold.co/600x425" alt="" /></a>
-                                    </div>
-                                    <div class="card-body p-0">
-                                        <div class="post-content p-11 md-p-9">
-                                            <a href="lab-crece-blog-single-simple.html" class="card-title mb-10px fw-600 fs-19 lh-28 text-dark-gray d-inline-block">Experience the breathtaking views and perspectives.</a>
-                                            <p class="mb-0">Lorem ipsum has been industry standard dummy text ever...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end blog item -->
-                            <!-- start blog item -->
-                            <li class="grid-item">
-                                <div class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover">
-                                    <div class="card-top d-flex align-items-center">
-                                        <a href="lab-crece-blog.html"><img src="https://placehold.co/125x125" class="avtar" alt=""></a>
-                                        <span class="fs-16">By <a href="lab-crece-blog.html" class="text-dark-gray fw-600">Jones robbert</a></span>
-                                        <div class="like-count ms-auto fs-14">
-                                            <a href="#"><i class="fa-regular fa-heart text-red d-inline-block"></i><span class="text-dark-gray fw-600">58</span></a>
-                                        </div>
-                                    </div>
-                                    <div class="blog-image position-relative overflow-hidden">
-                                        <a href="lab-crece-blog-single-simple.html"><img src="https://placehold.co/600x425" alt="" /></a>
-                                    </div>
-                                    <div class="card-body p-0">
-                                        <div class="post-content p-11 md-p-9">
-                                            <a href="lab-crece-blog-single-simple.html" class="card-title mb-10px fw-600 fs-19 lh-28 text-dark-gray d-inline-block">Build up healthy habits and strong peaceful life.</a>
-                                            <p class="mb-0">Lorem ipsum has been industry standard dummy text ever...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- end blog item -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="row justify-content-center mt-5">
-                    <!-- start features box item -->
-                    <div class="col-auto icon-with-text-style-08 md-mb-10px xs-mb-15px pe-25px md-pe-15px" data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="feature-box feature-box-left-icon-middle xs-lh-28">
-                            <div class="feature-box-icon me-10px">
-                                <i class="feather icon-feather-mail fs-20 text-dark-gray"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="text-dark-gray fw-500 fs-20 xs-fs-18 ls-minus-05px">Looking for help? <a href="lab-crece-contact.html" class="text-decoration-line-bottom-medium text-dark-gray fw-600">Contact us today</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box item -->
-                    <!-- start features box item -->
-                    <div class="col-auto icon-with-text-style-08 ps-25px md-ps-15px md-pe-15px" data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="feature-box feature-box-left-icon-middle xs-lh-28">
-                            <div class="feature-box-icon me-10px">
-                                <i class="feather icon-feather-thumbs-up fs-20 text-dark-gray"></i>
-                            </div>
-                            <div class="feature-box-content">
-                                <span class="text-dark-gray fw-500 fs-20 xs-fs-18 ls-minus-05px">Keep in Touch. <a href="#" class="text-decoration-line-bottom-medium text-dark-gray fw-600">Like us on Facebook</a></span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box item -->
-                </div>
-            </div>
-        </section>
-        <!-- end section -->
+
         <!-- start footer -->
         <footer class="bg-gradient-aztec-green position-relative">
             <div class="position-absolute left-minus-100px top-25px">

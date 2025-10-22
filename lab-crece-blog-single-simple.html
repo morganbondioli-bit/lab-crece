@@ -110,7 +110,46 @@
             </nav>
             <!-- end navigation -->
         </header>
-        <!-- end header --> 
+                <!-- end header --> 
+        <!-- Botón flotante de WhatsApp con rebote -->
+        <a href="https://wa.link/9aouhg" target="_blank" 
+        class="whatsapp-float d-flex justify-content-center align-items-center"
+        style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; 
+                background-color: #25D366; color: #fff; border-radius: 50%; 
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999; display: none;
+                animation: bounce 2s infinite;">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+
+        <style>
+        /* Mostrar solo en móviles (<992px) */
+        @media (max-width: 991.98px) {
+            .whatsapp-float {
+                display: flex !important;
+            }
+        }
+
+        /* Animación de rebote */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            }
+            25% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+            50% {
+                transform: translateY(-10px);
+                box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+            }
+            75% {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+            }
+        }
+        </style>
+        <!-- end Botón flotante de WhatsApp con rebote --> 
         <!-- start page title -->
         <section class="ipad-top-space-margin bg-dark-gray cover-background one-fifth-screen d-flex align-items-center" style="background-image: url(https://placehold.co/1920x1100)">
             <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('images/vertical-line-bg-small.svg')"></div>
