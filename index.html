@@ -621,39 +621,63 @@
             </div>
         </section>-->
         <!-- end section: Diplomados -->
+        <!-- start sección CTA llamativa con slider detrás -->
+        <section class="position-relative overflow-hidden" style="background-image: url('images/lab-crece-cta-bg.png'); background-size: cover; background-position: center;">
+            <div class="container-fluid">
+                <div class="row position-relative mt-40px xs-mt-20px">
+                    <!-- Slider en segundo plano -->
+                    <div class="col swiper swiper-width-auto feather-shadow text-center" 
+                        data-slider-options='{ "slidesPerView": "auto", "spaceBetween":80, "centeredSlides": true, "speed": 30000, "loop": true, "pagination": { "el": ".slider-four-slide-pagination-2", "clickable": false }, "allowTouchMove": false, "autoplay": { "delay":1, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-four-slide-next-2", "prevEl": ".slider-four-slide-prev-2" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
+                        <div class="swiper-wrapper marquee-slide">
+                            <!-- start slider item -->
+                            <div class="swiper-slide">
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">Liderar hoy</div>
+                            </div>
+                            <!-- end slider item -->
+                            <!-- start slider item -->
+                            <div class="swiper-slide">
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">exige aprender</div>
+                            </div>
+                            <!-- end slider item -->
+                            <!-- start slider item -->
+                            <div class="swiper-slide">
+                                <div class="fs-190 ls-minus-10px pt-10px pb-10px alt-font fw-600 opacity-1">más que ayer</div>
+                            </div>
+                            <!-- end slider item -->
+                        </div> 
+                    </div>  
 
-        <!-- start sección CTA llamativa -->
-        <section class="position-relative overflow-hidden" style="background-size: cover; background-position: center;">
-            <div class="container py-5 text-center position-relative z-index-1">
-                <!-- Icono destacado -->
-                <div class="d-inline-flex justify-content-center align-items-center mb-3">
-                    <div class="bg-yellow rounded-circle w-70px h-70px d-flex justify-content-center align-items-center shadow">
-                        <i class="bi bi-award fs-2 text-dark-gray"></i>
+                    <!-- Texto principal sobre el slider -->
+                    <div class="col-12 position-absolute top-0 h-100 d-flex justify-content-center align-items-center left-0px z-index-1 text-center">
+                        <div>
+                            <!-- Icono destacado -->
+                            <div class="d-inline-flex justify-content-center align-items-center mb-3">
+                                <div class="bg-yellow rounded-circle w-70px h-70px d-flex justify-content-center align-items-center shadow">
+                                    <i class="bi bi-award fs-2 text-dark-gray"></i>
+                                </div>
+                            </div>
+
+                            <!-- Título -->
+                            <h2 class="alt-font text-dark-gray fw-700 mb-3">Impulsa tu carrera profesional</h2>
+
+                            <!-- Descripción -->
+                            <p class="fs-18 text-dark-gray mb-4">
+                                Elige el diplomado que más se adapte a tus metas y comienza a avanzar hoy mismo.
+                            </p>
+
+                            <!-- Botón CTA -->
+                            <a href="lab-crece-courses.html" class="btn btn-large btn-dark-gray btn-box-shadow btn-rounded btn-switch-text">
+                                <span>
+                                    <span class="btn-double-text" data-text="Ver diplomados">Ver diplomados</span>
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Título -->
-                <h2 class="alt-font text-dark-gray fw-700 mb-3" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800 }'>
-                    Impulsa tu carrera profesional
-                </h2>
-
-                <!-- Descripción -->
-                <p class="fs-18 text-dark-gray mb-4" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800, "delay": 200 }'>
-                    Elige el diplomado que más se adapte a tus metas y comienza a avanzar hoy mismo.
-                </p>
-
-                <!-- Botón CTA -->
-                <a href="lab-crece-courses.html" class="btn btn-large btn-dark-gray btn-box-shadow btn-rounded btn-switch-text" data-anime='{ "opacity": [0,1], "translateY": [20,0], "duration": 800, "delay": 400 }'>
-                    <span>
-                        <span class="btn-double-text" data-text="Ver diplomados">Ver diplomados</span>
-                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                </a>
             </div>
         </section>
-        <!-- end sección CTA llamativa -->
-
-
+        <!-- end sección CTA llamativa con slider detrás -->
         <!-- start section -->
         <section class="overflow-hidden">
             <div class="container">
@@ -751,7 +775,7 @@
                         </div>
                         <a href="lab-crece-courses.html" class="btn btn-extra-large btn-dark-gray btn-box-shadow btn-rounded btn-switch-text mt-30px">
                             <span>
-                                <span class="btn-double-text" data-text="Explore courses">Explora los cursos</span> 
+                                <span class="btn-double-text" data-text="Explora los diplomados">Explora los diplomados</span> 
                                 <span><i class="fa-solid fa-arrow-right"></i></span>
                             </span>
                         </a>
@@ -873,12 +897,12 @@
                     <div class="col-xl-7 ps-0 text-center text-xl-start lg-mb-10px"> 
                         <ul class="footer-navbar fs-16 lh-normal"> 
                             <li class="nav-item active"><a href="index.html" class="nav-link ps-0">Home</a></li>
-                            <li class="nav-item"><a href="lab-crece-about.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="lab-crece-courses.html" class="nav-link">Courses</a></li>
-                            <li class="nav-item"><a href="lab-crece-instructors.html" class="nav-link">Instructors</a></li>
+                            <li class="nav-item"><a href="lab-crece-courses.html" class="nav-link">Diplomados</a></li>
+                            <li class="nav-item"><a href="lab-crece-about.html" class="nav-link">Acerca de UAI</a></li>
+                            <!--<li class="nav-item"><a href="lab-crece-instructors.html" class="nav-link">Instructors</a></li>
                             <li class="nav-item"><a href="lab-crece-testimonial.html" class="nav-link">Testimonial</a></li>
-                            <li class="nav-item"><a href="lab-crece-blog.html" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="lab-crece-contact.html" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="lab-crece-blog.html" class="nav-link">Blog</a></li>-->
+                            <li class="nav-item"><a href="lab-crece-contact.html" class="nav-link">Contáctanos</a></li>
                         </ul>
                     </div> 
                     <!-- end footer menu -->
